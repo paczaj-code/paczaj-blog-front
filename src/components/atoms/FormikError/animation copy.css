@@ -1,0 +1,16 @@
+.formik-error-enter {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  .formik-error-enter-active {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: all 500ms;
+  }
+  .formik-error-exit {
+    opacity: .5;
+  }
+  .formik-error-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+  }

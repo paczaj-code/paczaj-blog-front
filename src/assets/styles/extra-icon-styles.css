@@ -1,0 +1,59 @@
+[class^='icon-'].icon-lg,
+[class*=' icon-'].icon-lg {
+  font-size: 1.5rem;
+  vertical-align: bottom;
+}
+
+[class^='icon-'].icon-2x,
+[class*=' icon-'].icon-2x {
+  font-size: 2rem;
+}
+[class^='icon-'].icon-3x,
+[class*=' icon-'].icon-3x {
+  font-size: 3rem;
+}
+[class^='icon-'].icon-4x,
+[class*=' icon-'].icon-4x {
+  font-size: 4rem;
+}
+[class^='icon-'].icon-5x,
+[class*=' icon-'].icon-5x {
+  font-size: 5rem;
+}
+[class^='icon-'].icon-6x,
+[class*=' icon-'].icon-6x {
+  font-size: 6rem;
+}
+[class^='icon-'].icon-7x,
+[class*=' icon-'].icon-7x {
+  font-size: 7rem;
+}
+[class^='icon-'].icon-8x,
+[class*=' icon-'].icon-8x {
+  font-size: 8rem;
+}
+[class^='icon-'].icon-9x,
+[class*=' icon-'].icon-9x {
+  font-size: 9rem;
+}
+
+[class^='icon-'].icon-10x,
+[class*=' icon-'].icon-10x {
+  font-size: 10rem;
+}
+[class^='icon-'].icon-spin,
+[class*=' icon-'].icon-spin {
+  animation: spin-animation 1s infinite;
+  animation-timing-function: linear;
+  display: inline-block;
+  /* float:left */
+}
+
+@keyframes spin-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

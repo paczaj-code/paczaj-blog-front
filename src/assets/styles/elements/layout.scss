@@ -1,0 +1,16 @@
+.app-wrapper {
+    @apply flex flex-row;
+  }
+  #sidebar-wrapper {
+    @apply min-h-screen max-w-[250px] min-w-[250px] -ml-[250px] md:ml-0 dark:bg-slate-900 bg-orange-100 text-gray-600 dark:text-zinc-100 bg-opacity-20 dark:bg-opacity-30 bg-fixed relative;
+    box-shadow: 4px 0 25px -22px rgba(0, 0, 0, 4),
+      -4px 0 25px -22px rgba(0, 0, 0, 4);
+  }
+  .dark #sidebar-wrapper {
+    box-shadow: 10px 0 50px -30px black inset, -3px 0 5px black,
+      -10px 0 50px -30px black inset, 3px 0 5px black;
+  }
+  
+  .content-wrapper {
+    @apply px-20 py-10 w-full relative;
+  }

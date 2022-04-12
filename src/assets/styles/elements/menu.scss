@@ -1,0 +1,17 @@
+.sidebar-list {
+    @apply px-5 pt-3;
+  
+    > ul > li > a.main-link {
+      @apply dark:text-orange-400 text-cyan-700 text-[2.2rem] dark:text-shadow-lg text-shadow-sm;
+    }
+    > ul > li {
+      @apply py-3 border border-t-0 border-x-0   border-slate-500 border-dashed;
+  
+      > a i {
+        @apply mr-3;
+      }
+      > a.router-link-active {
+        @apply font-bold;
+      }
+    }
+  }

@@ -1,0 +1,30 @@
+const commonColors = {
+  grey100: 'hsl(0,0%,96%)',
+  grey200: 'hsl(0,0%,90%)',
+  grey300: 'hsl(0,0%,70%)',
+  grey400: 'hsl(0,0%,60%)',
+  grey500: 'hsl(0,0%,50%)',
+  grey600: 'hsl(0,0%,40%)',
+  grey700: 'hsl(0,0%,30%)',
+  grey800: 'hsl(0,0%,20%)',
+  grey900: 'hsl(0,0%,10%)',
+  black: 'hsl(0,0%,0%)',
+  wax: '#2b2b2b',
+  indygo: '#6610f2',
+  purple: '#69045f',
+  pink: '#e83e8c',
+  red: '#ae2936',
+  orange: '#f56f00',
+  yellow: '#eebb00',
+  green: '#388004',
+  teal: '#006c6e',
+  cyan: '#4776a3',
+  white: '#fff',
+  gray: '#6c757d',
+  chocolate: '#622c1e',
+  dark: '#403f3f',
+  light: '#b3b3b3',
+  blue: '#00bfeb'
+};
+
+export default commonColors;

@@ -1,0 +1,27 @@
+.spinner-wrapper {
+  // @apply bg-slate-900 bg-opacity-30 shadow-lg text-slate-900;
+  @apply px-8 py-10 w-fit rounded-3xl flex justify-center items-center m-auto relative  shadow-lg text-slate-900
+  dark:bg-neutral-700  bg-slate-500 bg-opacity-20
+
+  ;
+  box-shadow: 0 5px 14px rgba(12, 12, 12, 0.96);
+  // background-color: hsla(0, 0%, 100%, 0.1);
+//   -webkit-backdrop-filter: blur(5px);
+//   backdrop-filter: blur(5px);
+//   border: 1px solid hsla(0, 0%, 100%, 0.125);
+//   border-top-color: hsla(0, 0%, 100%, 0.25);
+//   border-left-color: hsla(0, 0%, 100%, 0.25);
+  // color: #eee;
+
+  > i {
+    @apply dark:text-sky-400 text-amber-700 text-shadow mr-5;
+  }
+  > .spinner-text {
+    @apply text-5xl text-shadow text-neutral-700 text-center dark:text-neutral-300;
+    font-weight: normal !important;
+
+    > span {
+      @apply text-secondary-800 text-3xl dark:text-secondary-500;
+    }
+  }
+}
